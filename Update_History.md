@@ -1,16 +1,16 @@
 # Base [W_SaTaN_W](https://telegram.me/WilSoN_DeVeLoPeR) 
 
-# Developer: [WilSoN_DeVeLoPeR](https://telegram.me/WilSoN_DeVeLoPeR)
+# Developer: [BadBoy](https://telegram.me/bad_bo0y)
 
-## put [lua-tg.c](https://github.com/DeterGent-Legion/MeGa_SaTaN/blob/master/lua-tg.c) in [/root/MeGa_SaTaN/tg/](https://github.com/DeterGent-Legion/MeGa_SaTaN/tg) then reboot the server
+## put [lua-tg.c](https://github.com/Maxsteam/megasatan/blob/master/lua-tg.c) in [/root/MeGa_SaTaN/tg/](https://github.com/maxsteam/megasatan/tg) then reboot the server
 
 # Update
 
-### Added [Ultimate Help](https://github.com/DeterGent-Legion/MeGa_SaTaN/plugins/help.lua) 
+### Added [Ultimate Help](https://github.com/Maxsteam/megasatan/plugins/help.lua) 
 
 ### Added Lock All & Unlock All & Bugs Fix.
 
-###Added copyright For Set Your Abouts. Don't Change megasatan Please.♥
+###Added copyright For Set Your Abouts. 
 
 ### Add res[Reply] & id @username 
 
@@ -26,12 +26,12 @@
 # Tested on Ubuntu 14.04, for other OSs check out https://github.com/yagop/telegram-bot/wiki/Installation
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev make unzip git redis-server g++ libjansson-dev libpython-dev expat libexpat1-dev
 ```
-### Paste [lua-tg.c](https://github.com/DeterGent-Legion/MeGa_SaTaN/lua-tg.c)
+### Paste [lua-tg.c](https://github.com/maxsteam/megasatan/lua-tg.c)
 ```bash
 # lets install the bot
 cd $HOME
-git clone https://github.com/DeterGent-Legion/MeGa_SaTaN.git
-cd MeGa_SaTaN
+git clone https://github.com/maxsteam/megasatan.git
+cd megasatan
 chmod +x launch.sh
 ./launch.sh install
 cd tg 

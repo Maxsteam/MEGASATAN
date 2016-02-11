@@ -2,7 +2,7 @@
 
 # Developer: [BadBoy](https://telegram.me/bad_bo0y)
 
-## put [lua-tg.c](https://github.com/Maxsteam/megasatan/blob/master/lua-tg.c) in [/root/MeGa_SaTaN/tg/](https://github.com/maxsteam/megasatan/tg) then reboot the server
+## put [lua-tg.c](https://github.com/Maxsteam/megasatan/blob/master/lua-tg.c) in [/root/megasatan/tg/](https://github.com/maxsteam/megasatan/tg) then reboot the server
 
 # Update
 
@@ -43,5 +43,5 @@ make && cd .. # For Support Sticker Operation
 To install everything in one command on debian-based distros, use: (useful for VPS deployment)
 ```sh
 #https://github.com/yagop/telegram-bot/wiki/Installation
-sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/DeterGent-Legion/MeGa_SaTaN.git && cd MeGa_SaTaN && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/Maxsteam/MEGASATAN.git && cd MEGASATAN && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 ```

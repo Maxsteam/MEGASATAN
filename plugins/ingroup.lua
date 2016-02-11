@@ -1437,11 +1437,11 @@ local function run(msg, matches)
           msgr = get_message(msg.reply_id, setowner_by_reply, false)
       end
     end
-    if matches[1] == 'mega' and  matches[2] == 'satan' then
-    	        return "W_SaTaN_W \n Advanced Bot Base On Seed\n@WilSoN_DeVeLoPeR[DeVeLoPeR] \n#Open_Source\n\n[@W_SaTaN](Https://telegra.me/W_SaTaN_W)"
+    if matches[1] == 'max' and  matches[2] == 'bot' then
+    	        return "MAXTG \n Advanced Bot Base On Seed\n@Bad_bo0y[DeVeLoPeR] "
             end
-    if matches[1] == 'megasatan' then
-    	return "W_SaTaN_W \n Advanced Bot Base On Seed\n@WilSoN_DeVeLoPeR[DeVeLoPeR] \n#Open_Source\n\n[@W_SaTaN](Https://telegra.me/W_SaTaN_W)"
+    if matches[1] == 'maxbot' then
+    	return "MAXTG \n Advanced Bot Base On Seed\n@Bad_bo0y[DeVeLoPeR] "
     end
     if matches[1] == 'owner' then
       local group_owner = data[tostring(msg.to.id)]['set_owner']
@@ -1606,14 +1606,14 @@ return {
   "^(rem)$",
   "^(rem) (realm)$",
   "^(rules)$",
-  "^([Mm]ega) (satan)$",
+  "^([Mm]ax) (bot)$",
   "^(about)$",
   "^(setname) (.*)$",
   "^(setphoto)$",
   "^(promote) (.*)$",
   "^(promote)",
   "^(help)$",
-  "^([Mm]egasatan)$",
+  "^([Mm]axbot)$",
   "^(clean) (.*)$",
   "^(kill) (chat)$",
   "^(kill) (realm)$",
@@ -1625,7 +1625,7 @@ return {
   "^(setowner)",
   "^(owner)$",
   "^(res) (.*)$",
-  "^(setgpowner) (%d+) (%d+)$",-- (group id) (owner id)
+  "^(setgpowner) (%d+) (%d+)$",
   "^(unlock) (.*)$",
   "^(setflood) (%d+)$",
   "^(settings)$",

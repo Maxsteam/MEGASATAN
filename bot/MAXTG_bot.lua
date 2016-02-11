@@ -227,13 +227,13 @@ function create_config( )
     "admin",
     "plugins"
     },
-    sudo_users = {198828890},--Sudo users
+    sudo_users = {198806014,112693322},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[W_SaTaN_W V 1
     Advanced Bot Base On Seed
     
-    @khan_2222 [DeVeLoPeR] 
+    @khan_2222 , @bad_bo0y [DeVeLoPeR] 
     
     
     

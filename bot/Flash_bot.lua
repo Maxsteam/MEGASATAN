@@ -233,10 +233,9 @@ function create_config( )
     about_text = [[W_SaTaN_W V 1
     Advanced Bot Base On Seed
     
-    @WilSoN_DeVeLoPeR[DeVeLoPeR] 
+    @khan_2222 [DeVeLoPeR] 
     
-    #Open_Source 
-    [@W_SaTaN_W] [Https://github.com/DeterGent-Legion/MeGa_SaTaN]
+    
     
 ]],
     help_text_realm = [[
